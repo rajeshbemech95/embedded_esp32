@@ -1,0 +1,1 @@
+cmd_/mnt/c/Users/Hello-pc/Desktop/embedded/hello_kernel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /mnt/c/Users/Hello-pc/Desktop/embedded/hello_kernel.ko /mnt/c/Users/Hello-pc/Desktop/embedded/hello_kernel.o /mnt/c/Users/Hello-pc/Desktop/embedded/hello_kernel.mod.o;  true

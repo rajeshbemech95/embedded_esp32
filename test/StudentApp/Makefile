@@ -1,23 +1,14 @@
-CC=gcc
+# gcc -o appStudent main.c fileOps.c student.c -I../
 
-all:app
+CC = gcc
 
-app: main.o student.o fileOps.o 
+SRC = main.c fileOps.c student.c
+INC = ../
+OUT = appStudent
 
-	$(CC) -o app main.o student.o fileOps.o 
-
-main.o: main.c 
-	$(CC) -c main.c 
-
-student.o: student.c 
-	$(CC) -c student.c
-
-fileOps.o: fileOps.c 
-	$(CC) -c fileOps.c 
-
+all: 
+	$(CC) -o $(OUT) $(SRC) -I$(INC)
 clean:
-	rm -f *.o app
-
-
+	rm -f appStudent *.o
 
 

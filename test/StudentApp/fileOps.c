@@ -29,7 +29,7 @@ void loadFromFile(Student s[], int *count)
     }
     while(fscanf(fp,"%d, %s, %d ",&s[*count].id,s[*count].name,&s[*count].result.marks) != EOF)
     {
-        count++;
+        (*count)++;
     }
     fclose(fp);
     printf("Data loaded from file");

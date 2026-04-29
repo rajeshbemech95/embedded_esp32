@@ -58,3 +58,66 @@ baudrate  bps
 57600
 10000000
 
+SPI - Serial pheriperal Interface 
+Sensor - MCU/MPU
+300000 bps 
+3.3 V 
+Full duplex 
+Ack 
+Many to many 
+Master - Slave 
+MCU - n of sensors
+sensor - n MCU 
+SCK - Serial Clock 
+MOSI - Master Out Slave In 
+MISO - Master In Slave Out 
+SS - Slave select 
+GND 
+Volt 3
+
+SS - low -> command -> slave address -> data -> SS - high
+[1,2,3]
+
+I2C 
+Master - Mulrti slave 
+SCK - serial clock 
+SDA - serial Data
+Vcc 
+GND 
+
+Start Bit - low -> slave address -> ACK -> data bytes 7 bit -> stop 
+ 400 kHz 
+ M - S1 S2 S3 
+ 3v3
+
+ User INTERFACE - UART 
+ 3v3 - Not uart 
+ Full duplex - UART / SPI 
+ Bulk data - SPI 
+ Circuit - I2c  
+
+
+CAN -  Controll area area 
+Master - N1 , N2 
+high 
+Low 
+50000 bps 
+
+
+TCp/IP - No limation - LAN 
+5V - POE 12V
+1024MB - > 5kbps, 1 mmps 
+1000 1000 1000 
+
+PWM 
+Duty cycle
+
+8 
+
+
+
+
+
+
+
+

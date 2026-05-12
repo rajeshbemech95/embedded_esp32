@@ -1,0 +1,1 @@
+savedcmd_/home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.mod := printf '%s\n'   example.o | awk '!x[$$0]++ { print("/home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/"$$0) }' > /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/Module.symvers -T /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/modules.order -i Module.symvers -e 

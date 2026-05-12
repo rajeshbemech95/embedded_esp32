@@ -1,0 +1,1 @@
+savedcmd_/home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.ko /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.o /home/jega/Desktop/jeev/embedded_esp32/test/kernelEx/example.mod.o
